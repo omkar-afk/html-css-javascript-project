@@ -1,0 +1,98 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Ubuntu",sans-serif;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+
+}
+nav ul li{
+    padding: 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round",sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-image: url("../downloaded/bg.jpg");
+}
+#myProgressBar{
+    width: 80vw;
+}
+.bottom
+{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 12px;
+}
+.songItem{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    margin: 12px 0;
+    color: black;
+    justify-content: space-around;
+    align-items: center;
+    margin: 12px 0;
+    border-radius: 10px;
+
+}
+.songItem img{
+    width:43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+/* .songListPlay{
+    display:flex;
+    align-items: center;
+
+} */
+.songItemcontainer{
+    margin-top:53px;
+}
+.songinfo{
+    position:absolute;
+    left:10vh;
+
+}
+.songinfo img{
+    opacity:0;
+    transition: opacity 1s ease-in;
+}
